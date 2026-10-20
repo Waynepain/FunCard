@@ -1,0 +1,29 @@
+{
+  "id": "tm1",
+  "name": "Technische Mechanik 1",
+  "short": "TM1",
+  "color": "#dc2626",
+  "exam": "Prüfungsvorleistung (Ende Nov.) + Klausur",
+  "cards": [
+    {"id":"tm1-001","type":"cloze","text":"Gewichtskraft: F_G = {{m · g}}","tags":["Grundlagen","Formel"],"src":"TM1 - Mitschrift 2026-09-24"},
+    {"id":"tm1-002","type":"basic","front":"Wofür stehen LP und FKB?","back":"LP = Lageplan, FKB = Freikörperbild.","tags":["Freikörperbild","Begriffe"],"src":"TM1 - Mitschrift 2026-10-08"},
+    {"id":"tm1-003","type":"basic","front":"Wie lauten die Gleichgewichtsbedingungen (GGB) des zentralen ebenen Kraftsystems?","back":"ΣF_x = 0 und ΣF_y = 0.","tags":["Gleichgewicht","Formel"],"src":"TM1 - Mitschrift 2026-10-08"},
+    {"id":"tm1-004","type":"basic","front":"Was ist ein zentrales ebenes Kraftsystem?","back":"Alle Kräfte liegen in einer Ebene und gehen durch einen Punkt.","tags":["Kraftsystem","Begriffe"],"src":"TM1 - Mitschrift 2026-10-15"},
+    {"id":"tm1-005","type":"basic","front":"Vorgehen beim Lösen einer Statikaufgabe (6 Schritte)?","back":"1. Freischneiden. 2. Kräftesummen bilden. 3. Freikörperbild erstellen. 4. GGB aufstellen. 5. Formeln auflösen. 6. Ergebnis.","tags":["Vorgehen","prüfungsrelevant"],"src":"TM1 - Mitschrift 2026-10-15"},
+    {"id":"tm1-006","type":"basic","front":"Welche Idealisierungen gelten für unsere Darstellungen?","back":"Immer idealisiert, masselos und reibungsfrei.","tags":["Grundlagen"],"src":"TM1 - Formelsammlung"},
+    {"id":"tm1-007","type":"basic","front":"Wie behandelt man ein Seil beim Freischneiden?","back":"Als Zugstab – man zieht am Seil.","tags":["Freikörperbild","Seil"],"src":"TM1 - Formelsammlung"},
+    {"id":"tm1-008","type":"cloze","text":"sin α = {{Gegenkathete}} / Hypotenuse; cos α = {{Ankathete}} / Hypotenuse.","tags":["Trigonometrie","Formel"],"src":"TM1 - Mitschrift 2026-10-08"},
+    {"id":"tm1-009","type":"cloze","text":"Kraftzerlegung (Winkel α zur Horizontalen): F_x = {{F · cos α}}, F_y = {{F · sin α}}.","tags":["Kraftzerlegung","Formel"],"src":"TM1 - Mitschrift 2026-10-08"},
+    {"id":"tm1-010","type":"basic","front":"Wie zerlegt man eine Kraft, wenn der Winkel zur senkrechten Wand gemessen wird?","back":"Dann steht sin in x-Richtung und cos in y-Richtung (F_x = F · sin α, F_y = F · cos α).","tags":["Kraftzerlegung"],"src":"TM1 - Mitschrift 2026-10-08 (Seilwinde, Aufbereitung)"},
+    {"id":"tm1-011","type":"basic","front":"Was bedeutet ein negatives Ergebnis für eine Stabkraft, die als Zug angenommen wurde?","back":"Die Zug-Annahme war falsch – der Stab ist ein Druckstab.","tags":["Stabkräfte"],"src":"TM1 - Mitschrift 2026-10-08 (Seilwinde)"},
+    {"id":"tm1-012","type":"basic","front":"Wie wirkt die Seilkraft an einer reibungsfreien Umlenkung?","back":"Die Seilkraft F_SE wirkt auf beiden Seiten der Umlenkung in gleicher Größe.","tags":["Seil"],"src":"TM1 - Mitschrift 2026-10-08"},
+    {"id":"tm1-013","type":"basic","front":"Masse an zwei Stäben: 4 Unbekannte (F_S1, F_S2 und Komponenten) bei nur 2 GGB – wie löst man das?","back":"Mit der Kraftzerlegung (sin/cos) kommen 4 Gleichungen hinzu → 6 Gleichungen für 6 Unbekannte.","tags":["Stabkräfte","Vorgehen"],"src":"TM1 - Mitschrift 2026-10-08"},
+    {"id":"tm1-014","type":"cloze","text":"Spannung σ = {{F / A}}, Kreisquerschnitt A = {{π · d² / 4}}.","tags":["Spannung","Formel"],"src":"TM1 - Mitschrift 2026-10-08"},
+    {"id":"tm1-015","type":"basic","front":"Wann hält ein Stab (Spannungsnachweis)?","back":"Wenn σ ≤ R_e (Streckgrenze).","tags":["Spannung"],"src":"TM1 - Mitschrift 2026-10-08"},
+    {"id":"tm1-016","type":"type","front":"Streckgrenze R_e von Baustahl S235 in N/mm²?","back":"235","tags":["Kennwert","Spannung"],"src":"TM1 - Mitschrift 2026-10-08"},
+    {"id":"tm1-017","type":"basic","front":"Stab mit d = 2 mm, F = 388 N → σ ≈ 123,6 N/mm². Hält er in Stahl S235 und in Polyamid (R_e = 40 N/mm²)?","back":"Stahl: ja (123,6 < 235). Polyamid: nein (123,6 > 40).","tags":["Spannung","Aufgabe"],"src":"TM1 - Mitschrift 2026-10-08"},
+    {"id":"tm1-018","type":"basic","front":"Aufbau der Prüfungsvorleistung (Ende November)?","back":"Teil 1: Multiple Choice. Teil 2: Aufgabe zum zentralen ebenen Kraftsystem. Hauptaufgaben: Baum, Lampe, Seilwinde. Formelsammlung: zwei Seiten inkl. Grafiken.","tags":["Organisation"],"src":"TM1 - Mitschrift 2026-10-15"},
+    {"id":"tm1-019","type":"basic","front":"Seilwinde: Warum werden die Stabkräfte viel größer als das Gewicht (α = 42°, β = 35°)?","back":"Die beiden Stäbe sind fast gleich geneigt; sin(α − β) = sin 7° steht im Nenner.","tags":["Stabkräfte","Aufgabe"],"src":"TM1 - Mitschrift 2026-10-08 (Aufbereitung)"},
+    {"id":"tm1-020","type":"basic","front":"Transporter mit Anhänger: GGB für Haftkraft F_H und Kupplungskraft F?","back":"ΣF_x = 0: F − F_H = 0. ΣF_y = 0: F_NA + F_NB − F_G = 0.","tags":["Gleichgewicht","Aufgabe"],"src":"TM1 - Mitschrift 2026-10-08"}
+  ]
+}

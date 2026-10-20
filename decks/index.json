@@ -1,0 +1,5 @@
+{
+  "version": 1,
+  "semester": "WS 2026/27",
+  "decks": ["wk.json", "tm1.json", "qum.json", "tlp.json", "rob.json", "aise.json"]
+}

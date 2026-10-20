@@ -1,0 +1,25 @@
+{
+  "id": "aise",
+  "name": "AI Systems Engineering",
+  "short": "AISE",
+  "color": "#0891b2",
+  "exam": "Kursarbeit / Präsentation (keine Klausur)",
+  "cards": [
+    {"id":"aise-001","type":"basic","front":"Wie ist ein Agent im Kursbuch definiert?","back":"Ein Agent ist alles, was seine Umgebung wahrnehmen und auf diese Umgebung einwirken kann – charakterisiert durch seine Umgebung und die Menge seiner möglichen Aktionen.","tags":["Agenten","Definition"],"src":"AISE - mdBook Kapitel Agenten"},
+    {"id":"aise-002","type":"basic","front":"Braucht ein Agent laut Buch externe Tools?","back":"Nein – aber ohne externe Tools wären seine Fähigkeiten begrenzt.","tags":["Agenten"],"src":"AISE - mdBook Kapitel Agenten"},
+    {"id":"aise-003","type":"basic","front":"Welche Klage gab es in der Frühzeit der Agenten?","back":"Agenten seien nur gut darin, API-Credits zu verbrennen.","tags":["Agenten"],"src":"AISE - mdBook Kapitel Agenten"},
+    {"id":"aise-004","type":"basic","front":"Was ist Context Construction?","back":"Das gezielte Zusammenstellen des Kontexts, den ein Sprachmodell für eine Anfrage bekommt (Anweisungen, Dokumente z. B. per RAG, Beispiele, Gesprächsverlauf).","tags":["Context Construction","ungeprüft"],"src":"AISE - Mitschrift 2026-09-21 (Aufbereitung, Buch S. 29 abgleichen)"},
+    {"id":"aise-005","type":"basic","front":"Was ist RAG?","back":"Retrieval-Augmented Generation: Antworten eines Sprachmodells auf abgerufene Quellen stützen.","tags":["RAG","Definition"],"src":"RAG"},
+    {"id":"aise-006","type":"cloze","text":"Chinchilla-Regel (DeepMind, 2022): Trainings-Tokenzahl ≈ {{20}} × Parameter.","tags":["Foundation Models","Scaling Laws"],"src":"AISE - Mitschrift 2026-10-12; Hoffmann et al. 2022"},
+    {"id":"aise-007","type":"basic","front":"Welche zwei Schritte des Post-Trainings wurden wiederholt?","back":"Supervised Finetuning (SFT) und Preference Finetuning.","tags":["Post-Training"],"src":"AISE - Mitschrift 2026-10-12"},
+    {"id":"aise-008","type":"basic","front":"Welcher Mechanismus ist zentral für Foundation Models / Transformer?","back":"Der Attention-Mechanismus (seq2seq ohne Attention gilt als schlecht).","tags":["Foundation Models","Transformer"],"src":"AISE - Mitschrift 2026-10-12"},
+    {"id":"aise-009","type":"basic","front":"Welche Prompting-Mechanismen gelten als zentral?","back":"Few-Shot-Prompting und Chain of Thought.","tags":["Prompting"],"src":"AISE - mdBook Kapitel Agenten"},
+    {"id":"aise-010","type":"basic","front":"Was ist das Model Context Protocol (MCP)?","back":"Ein offenes Protokoll (Anthropic, Nov. 2024) für den Werkzeugzugriff von KI-Agenten; definiert Hosts, Clients und Server.","tags":["MCP","Agenten"],"src":"Model Context Protocol; AISE - mdBook Kapitel Agenten"},
+    {"id":"aise-011","type":"basic","front":"Wofür eignen sich MCP-Server mit n8n laut deiner Erfahrung?","back":"Als Werkzeug, um mit KI-Agenten deterministische Workflows zu entwickeln, statt Skills o. Ä. zu nutzen.","tags":["MCP","n8n"],"src":"AISE - mdBook Kapitel Agenten"},
+    {"id":"aise-012","type":"basic","front":"Welches Embedding-Modell wurde als Themenbereich genannt?","back":"all-MiniLM-L6-v2.","tags":["Embeddings"],"src":"AISE - Mitschrift 2026-09-28"},
+    {"id":"aise-013","type":"basic","front":"Welche KI-Modelle dürfen im Kurs genutzt werden?","back":"Nur lokale Modelle.","tags":["Organisation"],"src":"AISE - Mitschrift 2026-09-21"},
+    {"id":"aise-014","type":"basic","front":"Wann ist der Kurzvortrag zum Thema KI-Agenten?","back":"16.11.2026.","tags":["Organisation"],"src":"AISE - Mitschrift 2026-10-12"},
+    {"id":"aise-015","type":"basic","front":"Was ist das Thema eurer Gruppenarbeit?","back":"Meeting-Transkription.","tags":["Organisation"],"src":"AISE - Mitschrift 2026-10-12"},
+    {"id":"aise-016","type":"basic","front":"Was ist das LLM-Wiki-Prinzip (Karpathy)?","back":"Ein LLM pflegt ein verdichtetes Wiki aus Rohquellen.","tags":["LLM-Wiki"],"src":"LLM-Wiki"}
+  ]
+}
