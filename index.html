@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>FunCard</title>
+  <meta name="description" content="Karteikarten für die Klausuren im WING-Master">
+  <meta name="theme-color" content="#e6ebf1" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#161c29" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="FunCard">
+  <!-- use-credentials: nötig, damit das Manifest hinter Authelia (Forward-Auth) mit Cookie geladen wird -->
+  <link rel="manifest" href="manifest.webmanifest" crossorigin="use-credentials">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Bricolage+Grotesque:opsz,wght@12..96,400..800&display=swap">
+  <link rel="stylesheet" href="css/app.css">
+  <script>window.FUNCARD_VERSION = "0.1.0";</script>
+</head>
+<body>
+  <main id="view" class="wrap" tabindex="-1"><p class="muted" style="padding:40px 0;text-align:center">Karteikasten wird geöffnet …</p></main>
+  <nav class="bottom" aria-label="Hauptnavigation">
+    <a href="#/" data-nav="home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M7 7V4h6v3"/></svg>Kasten</a>
+    <a href="#/karten" data-nav="karten"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="6"/><path d="m20 20-4.5-4.5"/></svg>Karten</a>
+    <a href="#/statistik" data-nav="statistik"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M5 20V11M12 20V5M19 20v-7"/></svg>Statistik</a>
+    <a href="#/einstellungen" data-nav="einstellungen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1 7 17M17 7l2.1-2.1"/></svg>Einstellungen</a>
+  </nav>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

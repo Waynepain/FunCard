@@ -1,0 +1,8 @@
+services:
+  funcard:
+    build: .
+    image: funcard:latest
+    container_name: funcard
+    restart: unless-stopped
+    ports:
+      - "8095:80"

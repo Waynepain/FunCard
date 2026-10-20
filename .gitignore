@@ -1,0 +1,3 @@
+# PNG-Icons werden beim Docker-Build aus den SVGs erzeugt
+icons/*.png
+.DS_Store
